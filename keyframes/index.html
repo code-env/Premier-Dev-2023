@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript v1</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Jetbrains Mono";
+        color: white;
+      }
+
+      body {
+        background: red;
+        transition: 0.3s ease-in-out;
+        animation: pd 0.3s infinite;
+        font-size: 4rem;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Introduction to javascript</p>
+
+    <script>
+      // let word = "Summer Bootcamp 2023";
+
+      // console.log(word.split(" ").length);
+
+      //  ARRAYS
+      let nums = [1, 2, 3];
+      let numbers = [1, 2, 3];
+
+      console.log(nums == numbers);
+
+      //OBJECTS
+      const userOne = {
+        username: "zenith",
+        age: 55,
+        role: "teaching",
+      };
+
+      const userTwo = {
+        username: "Bootcamp",
+        age: 3,
+        role: "Empowering",
+      };
+
+      const myArray = [
+        2,
+        "two",
+        true,
+        undefined,
+        null,
+        {
+          username: "Premier Dev",
+          age: 3,
+        },
+        [
+          {
+            username: "Premier Dev",
+            age: 3,
+          },
+        ],
+      ];
+
+      console.log(myArray);
+
+      //OPERATORS
+      let numOne = 4;
+      let numTwo = 3;
+      let sum = numOne + numTwo;
+      let diff = numOne - numTwo;
+      let mult = numOne * numTwo;
+      let div = numOne / numTwo;
+      let remainder = numOne % numTwo;
+      let powerOf = numOne ** numTwo;
+
+      //COMPARISSION operators
+      let valOne = "1";
+      let valTwo = 1;
+
+      console.log(valOne == valTwo);
+      console.log(valOne === valTwo);
+      console.log(valOne != valTwo);
+      console.log(valOne !== valTwo);
+
+      //LOGICAL OPERATORS
+    </script>
+  </body>
+</html>

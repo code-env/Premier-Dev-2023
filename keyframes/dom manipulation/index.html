@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom manipulations</title>
+  </head>
+  <body>
+    <!-- <h1>This is the second heading</h1>
+    <h1>This is the first heading</h1>
+    <h1>This is the third heading</h1> -->
+
+    <input type="text" id="input1" placeholder="DD" />
+    <input type="text" id="input2" placeholder="MM" />
+    <input type="text" id="input3" placeholder="YYYY" />
+
+    <button id="cta">Click me</button>
+
+    <!-- <p id="paragraph1">This is a paragraph</p>
+    <script>
+      //getting elemenets by class name
+      const inputOne = document.getElementsByClassName("input1");
+
+      // console.log(inputOne);
+
+      for (let i = 0; i < inputOne.length; i++) {
+        console.log(inputOne[i]);
+      }
+
+      //getting elements by tagname
+      const headings = document.getElementsByTagName("h1");
+
+      // console.log(headings);
+      for (let i = 0; i < headings.length; i++) {
+        console.log(headings[i]);
+      }
+
+      //getting elements by ids
+      const paragraph1 = document.getElementById("paragraph1");
+      // console.log(paragraph1);
+
+      //getting elements by queryselector
+      const headingsAgain = document.querySelector("h1");
+
+      console.log(headingsAgain);
+      //getting elements by queryselectorAll
+      const headingsAgainO = document.querySelectorAll("h1");
+
+      console.log(headingsAgainO);
+      // for (let i = 0; i < headingsAgainO.length; i++) {
+      //   console.log(headingsAgainO[i]);
+      // }
+
+      headingsAgainO.forEach((heading) => console.log(heading)); -->
+    <!-- </script> -->
+
+    <script>
+      const cta__btn = document.getElementById("cta");
+      const day = document.getElementById("input1");
+
+      cta__btn.addEventListener("click", function () {
+        console.log(day.value);
+      });
+    </script>
+  </body>
+</html>
