@@ -44,3 +44,13 @@ const doSomething = new Promise((resolve, reject) => {
 doSomething
   .then((result) => console.log(result))
   .catch((err) => console.log(err));
+
+//FETCK API
+const url = "https://restcountries.com/v2/all";
+
+fetch(url)
+  .then((res) => res.json())
+  .then((data) => console.log(data))
+  .catch((err) => console.log(err));
+
+//async await
