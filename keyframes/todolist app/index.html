@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <form id="form">
+        <input type="text" id="input" placeholder="Add a task" />
+        <button type="submit">Add</button>
+      </form>
+      <ul id="list"></ul>
+      <div class="toggle-container">
+        <span>Switch to dark mode:</span>
+        <label class="switch">
+          <input type="checkbox" id="toggle" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

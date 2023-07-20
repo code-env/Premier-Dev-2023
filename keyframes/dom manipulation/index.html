@@ -16,6 +16,9 @@
 
     <button id="cta">Click me</button>
 
+    <p><span>this is a span</span>Year</p>
+    <p><span>--</span>Month</p>
+    <p><span>--</span>Day</p>
     <!-- <p id="paragraph1">This is a paragraph</p>
     <script>
       //getting elemenets by class name
@@ -57,10 +60,16 @@
     <script>
       const cta__btn = document.getElementById("cta");
       const day = document.getElementById("input1");
+      const month = document.getElementById("input2");
+      const year = document.getElementById("input3");
 
       cta__btn.addEventListener("click", function () {
-        console.log(day.value);
+        // console.log(day.value, month.value, year.value);
+
+        document.querySelector("p span").textContent = day.value;
       });
+
+      ///ass
     </script>
   </body>
 </html>
