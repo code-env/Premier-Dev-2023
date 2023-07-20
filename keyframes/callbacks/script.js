@@ -48,9 +48,33 @@ doSomething
 //FETCK API
 const url = "https://restcountries.com/v2/all";
 
-fetch(url)
-  .then((res) => res.json())
-  .then((data) => console.log(data))
-  .catch((err) => console.log(err));
+// fetch(url)
+//   .then((res) => res.json())
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
-//async await
+//async and await
+
+const square = async function (n) {
+  const value = n * n;
+
+  return value;
+};
+
+console.log(square(25));
+
+const fetchData = async () => {
+  try {
+    const res = await fetch(url);
+
+    const countries = await res.json();
+
+    console.log(countries);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+fetchData();
+
+///
