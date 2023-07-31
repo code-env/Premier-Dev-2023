@@ -1,3 +1,5 @@
+import getUser from "./test.js";
+
 console.log("Greetings developers!");
 
 const totalNumberOfCountries = document.querySelector("#countries__length");
@@ -26,6 +28,10 @@ const displayCountries = (countries) => {
     const countryDiv = document.createElement("div");
     countryDiv.classList.add("country");
     countryDiv.innerHTML = country.name;
+
+    console.log(country);
+
+    const user = getUser();
 
     return countriesList.appendChild(countryDiv);
   });

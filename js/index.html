@@ -6,18 +6,35 @@
     <title>Document</title>
   </head>
   <body>
-    <script>
-      //the date object
-      const now = new Date();
-      console.log(now);
+    <form id="myForm">
+      <input type="text" name="to_name" />
+      <input type="text" name="message" />
 
-      //getting the year
-      const year = now.getFullYear();
+      <button>send</button>
+    </form>
 
-      console.log(year);
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      const form = document.getElementById("myForm");
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        sendMessage();
+      });
 
-      const month = now.getMonth();
-      console.log(month);
+      function sendMessage() {
+        emailjs.init("VFLqtw3bOUTlsQ2mz");
+        emailjs.sendForm("service_ynq7wto", "template_hpgt2mo", "#myForm").then(
+          function (response) {
+            console.log("SUCCESS!", response.status, response.text);
+          },
+          function (error) {
+            console.log("FAILED...", error);
+          }
+        );
+      }
     </script>
   </body>
 </html>
