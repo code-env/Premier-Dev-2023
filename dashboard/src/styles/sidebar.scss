@@ -1,0 +1,6 @@
+@import "./constants";
+
+.sidebar__container {
+  height: 100%;
+  @include flexdirection(column);
+}
