@@ -7,27 +7,27 @@ export const routes = [
   {
     path: "/",
     name: "Dashboard",
-    icon: MdDashboard,
+    icon: ,
   },
   {
     path: "/foods",
     name: "Foods & Drinks",
-    icon: FaHamburger,
+    icon: ,
   },
   {
     path: "/messages",
     name: "Messages",
-    icon: HiChatAlt2,
+    icon: ,
   },
   {
     path: "/bills",
     name: "Bills",
-    icon: RiMoneyDollarCircleFill,
+    icon: ,
   },
   {
     path: "/settings",
     name: "Settings",
-    icon: GoSettings,
+    icon: ,
   },
 ];
 ```
