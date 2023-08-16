@@ -33,3 +33,5 @@ export const routes = [
 ```
 
 --> learn react-router dom using either the documentations or watch a youtube video
+
+--> after watching the youtube tutorial use it in your project and ie: this dashboard application for the routing.
