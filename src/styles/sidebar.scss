@@ -1,0 +1,31 @@
+@import "./constants";
+
+.sidebar__container {
+  height: 100%;
+  @include flexdirection(column);
+  background: var(--yellow);
+  gap: 5rem;
+  padding: 1rem;
+
+  .logo {
+    p {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .routes {
+    @include flexdirection(column);
+    gap: 0.5rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}
