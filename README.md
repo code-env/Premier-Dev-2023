@@ -35,3 +35,7 @@ export const routes = [
 --> learn react-router dom using either the documentations or watch a youtube video
 
 --> after watching the youtube tutorial use it in your project and ie: this dashboard application for the routing.
+
+```sh
+git clone -b dashboard https://github.com/code-env/Premier-Dev-2023.git dashboard
+```
