@@ -2,6 +2,18 @@
 
 @import "./constants";
 
+:root {
+  --yellow: #ffca40;
+  --dark: black;
+  --light_dark: #808080;
+  --light: #f8f8f7;
+  --white: white;
+  --trans: 0.3s ease-in-out;
+  --red: #8f170ace;
+  --shadow: 5px 30px 40px rgba(128, 128, 128, 0.214);
+  --border: 1px solid rgba(128, 128, 128, 0.243);
+}
+
 * {
   margin: 0;
   padding: 0;
