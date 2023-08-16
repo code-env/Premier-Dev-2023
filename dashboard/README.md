@@ -1,8 +1,35 @@
-# React + Vite
+## exercises
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--> using the javascript gist bellow create the and complete the sidebar routes
 
-Currently, two official plugins are available:
+```js
+export const routes = [
+  {
+    path: "/",
+    name: "Dashboard",
+    icon: MdDashboard,
+  },
+  {
+    path: "/foods",
+    name: "Foods & Drinks",
+    icon: FaHamburger,
+  },
+  {
+    path: "/messages",
+    name: "Messages",
+    icon: HiChatAlt2,
+  },
+  {
+    path: "/bills",
+    name: "Bills",
+    icon: RiMoneyDollarCircleFill,
+  },
+  {
+    path: "/settings",
+    name: "Settings",
+    icon: GoSettings,
+  },
+];
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--> learn react-router dom using either the documentations or watch a youtube video
