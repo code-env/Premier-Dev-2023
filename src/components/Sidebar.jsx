@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/sidebar.scss";
 import { sidebarRoutes } from "../constants";
 import { EggFried } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -14,10 +15,12 @@ const Sidebar = () => {
       </div>
       <ul className="routes">
         {sidebarRoutes.map((route, index) => (
-          <li key={index}>
-            <route.icon />
-            <span>{route.name}</span>
-          </li>
+          <Link to={route.path} key={index}>
+            <li>
+              <route.icon />
+              <span>{route.name}</span>
+            </li>
+          </Link>
         ))}
       </ul>
     </aside>
