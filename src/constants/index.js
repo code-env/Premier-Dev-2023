@@ -12,3 +12,18 @@ export const sidebarRoutes = [
     icon: MessageCircle,
   },
 ];
+
+export const dashboardCounts = [
+  {
+    name: "Total Menus",
+  },
+  {
+    name: "Total Menus",
+  },
+  {
+    name: "Total Menus",
+  },
+  {
+    name: "Total Menus",
+  },
+];

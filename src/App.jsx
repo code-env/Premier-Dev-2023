@@ -12,7 +12,7 @@ const App = () => {
       </section>
       <section className="main__content w-full">
         <Navbar />
-        <div className="wrapper">
+        <div className="wrapper p-20">
           <Routes>
             <Route index element={<Home />} />
             <Route path="bills" element={<Home />} />

@@ -1,9 +1,10 @@
 import React from "react";
+import DCount from "../components/DCount";
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-green-500">Hello world</h1>
+    <div className="flex flex-col gap-10 ">
+      <DCount />
     </div>
   );
 };
