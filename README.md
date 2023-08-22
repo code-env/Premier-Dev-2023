@@ -1,41 +1,23 @@
-## exercises
+# Assignment
 
---> using the javascript gist bellow create the and complete the sidebar routes
+--> Make a PR to this repos with the following changes
+1: change the dcount.jsx file to have
 
 ```js
-export const routes = [
+export const dashboardCounts = [
   {
-    path: "/",
-    name: "Dashboard",
-    icon: ,
+    name: "Total Menus",
   },
   {
-    path: "/foods",
-    name: "Foods & Drinks",
-    icon: ,
+    name: "Total Revenue",
   },
   {
-    path: "/messages",
-    name: "Messages",
-    icon: ,
+    name: "Total Orders",
   },
   {
-    path: "/bills",
-    name: "Bills",
-    icon: ,
-  },
-  {
-    path: "/settings",
-    name: "Settings",
-    icon: ,
+    name: "Total Customers",
   },
 ];
 ```
 
---> learn react-router dom using either the documentations or watch a youtube video
-
---> after watching the youtube tutorial use it in your project and ie: this dashboard application for the routing.
-
-```sh
-git clone -b dashboard https://github.com/code-env/Premier-Dev-2023.git dashboard
-```
+2: create a new component file called chart.js and install the apexchart library and use it in the dashboard ie: home.jsx
