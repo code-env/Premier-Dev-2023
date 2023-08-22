@@ -21,3 +21,6 @@ export const dashboardCounts = [
 ```
 
 2: create a new component file called chart.js and install the apexchart library and use it in the dashboard ie: home.jsx
+
+3: design the food card to look like the design as shown in the link below
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3srfHkV9bGw&psig=AOvVaw3PKHhggkAVPckxJt81s0eA&ust=1692782660012000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMCx7f_474ADFQAAAAAdAAAAABAJ
